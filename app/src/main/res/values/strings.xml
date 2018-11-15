@@ -1,0 +1,21 @@
+<resources>
+
+    <string name="app_name">Math</string>
+    <string name="square_name">Square</string>
+    <string name="circle_name">Circle</string>
+    <string name="triangle_name">Triangle</string>
+    <string name="rectangle_name">Rectangle</string>
+    <string name="toast_name">Enter Value Of X</string>
+    <string name="Perimeter_name">Perimeter</string>
+    <string name="zero_name">00.00</string>
+    <string name="Result_name">Result</string>
+    <string name="NewOperation_name">New Operation</string>
+    <string name="area_name">Area</string>
+    <string name="hint_rib1">Enter Value Of rib1</string>
+    <string name="hint_rib2">Enter Value Of rib2</string>
+    <string name="hint_rib3">Enter Value Of rib3</string>
+    <string name="hint_height">Enter height</string>
+    <string name="hint_base">Enter Base</string>
+    <string name="hint_y">Enter Value Of Y</string>
+
+</resources>

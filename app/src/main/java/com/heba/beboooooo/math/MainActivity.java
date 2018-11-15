@@ -12,7 +12,7 @@ public class MainActivity extends AppCompatActivity {
     LinearLayout Circle;
     LinearLayout Rectangle;
     LinearLayout Triangle;
-//
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

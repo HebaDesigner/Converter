@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Square">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+       <EditText
+           android:id="@+id/x_id"
+           android:layout_width="match_parent"
+           android:layout_height="0dp"
+           android:layout_weight="1"
+           android:inputType="numberDecimal"
+           android:hint="@string/toast_name"
+           android:textColor="#2471a3"
+           android:textColorHint="#a9cce3"
+           android:textSize="30sp"
+           android:gravity="center"
+           />
+
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/status_Group"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+            <RadioButton android:id="@+id/radio_area"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/area_name"
+                android:layout_weight="1"
+                android:layout_margin="5dp"
+                android:padding="15dp"
+                android:textSize="25sp"
+                />
+            <RadioButton android:id="@+id/radio_perimeter"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/Perimeter_name"
+                android:layout_weight="1"
+                android:layout_margin="5dp"
+                android:padding="15dp"
+                android:textSize="25sp"
+                />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/zero_id"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:textSize="60sp"
+            android:textStyle="bold"
+            android:textColor="#2471a3"
+            android:hint="@string/zero_name"
+            android:textColorHint="#a9cce3"
+            android:gravity="center"
+            />
+        <Button
+            android:id="@+id/result_btn"
+            style="@style/buttons"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn"
+            android:text="@string/Result_name"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            />
+
+        <Button
+            android:id="@+id/NewOperation_btn"
+            style="@style/buttons"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn"
+            android:text="@string/NewOperation_name"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            />
+
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
