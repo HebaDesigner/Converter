@@ -8,10 +8,10 @@ import android.widget.LinearLayout;
 
 public class MainActivity extends AppCompatActivity {
 
-    LinearLayout square;
-    LinearLayout Circle;
-    LinearLayout Rectangle;
-    LinearLayout Triangle;
+    LinearLayout Currency;
+    LinearLayout Time;
+    LinearLayout Distance;
+    LinearLayout Speed;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,25 +19,25 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         Relathon();
-        SQ();
-        CR();
-        RC();
-        TR();
+        CUR();
+        TIM();
+        DIS();
+        SP();
     }
 
     public void Relathon() {
-        square = (LinearLayout) findViewById(R.id.square_id);
-        Circle = (LinearLayout) findViewById(R.id.circle_id);
-        Rectangle = (LinearLayout) findViewById(R.id.rectangle_id);
-        Triangle = (LinearLayout) findViewById(R.id.triangle_id);
+        Currency = (LinearLayout) findViewById(R.id.currency_id);
+        Time = (LinearLayout) findViewById(R.id.time_id);
+        Distance = (LinearLayout) findViewById(R.id.distance_id);
+        Speed = (LinearLayout) findViewById(R.id.speed_id);
     }
 
-    public void SQ() {
+    public void CUR() {
 
-        square.setOnClickListener(new View.OnClickListener() {
+        Currency.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, Square.class);
+                Intent intent = new Intent(MainActivity.this, Currency.class);
                 startActivity(intent);
 
             }
@@ -45,38 +45,38 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    public void CR() {
+    public void TIM() {
 
-        Circle.setOnClickListener(new View.OnClickListener() {
+        Time.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
-                Intent intent = new Intent(MainActivity.this, Circle.class);
+                Intent intent = new Intent(MainActivity.this, Time.class);
                 startActivity(intent);
             }
         });
 
     }
 
-    public void RC() {
+    public void DIS() {
 
-        Rectangle.setOnClickListener(new View.OnClickListener() {
+        Distance.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
-                Intent intent = new Intent(MainActivity.this, Rectangle.class);
+                Intent intent = new Intent(MainActivity.this, Distance.class);
                 startActivity(intent);
             }
         });
 
     }
-    public void TR() {
+    public void SP() {
 
-        Triangle.setOnClickListener(new View.OnClickListener() {
+        Speed.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
-                Intent intent = new Intent(MainActivity.this, Triangle.class);
+                Intent intent = new Intent(MainActivity.this, Speed.class);
                 startActivity(intent);
             }
         });

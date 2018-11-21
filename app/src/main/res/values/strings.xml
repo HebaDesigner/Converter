@@ -1,21 +1,34 @@
 <resources>
+    
+    <string-array name="currency">
+        <item>EGP</item>
+        <item>USD</item>
+        <item>URO</item>
+        <item>GBP</item>
+        <item>AUD</item>
+        <item>CHF</item>
+        <item>CAD</item>
+    </string-array>
 
+    <string-array name="time">
+        <item>H</item>
+        <item>M</item>
+        <item>S</item>
+    </string-array>
+
+    <string-array name="distance">
+        <item>cm</item>
+        <item>m</item>
+        <item>km</item>
+    </string-array>
+
+    <string-array name="speed">
+        <item>M/S</item>
+        <item>KM/H</item>
+        <item>Mil/H</item>
+    </string-array>
     <string name="app_name">Math</string>
-    <string name="square_name">Square</string>
-    <string name="circle_name">Circle</string>
-    <string name="triangle_name">Triangle</string>
-    <string name="rectangle_name">Rectangle</string>
-    <string name="toast_name">Enter Value Of X</string>
-    <string name="Perimeter_name">Perimeter</string>
-    <string name="zero_name">00.00</string>
-    <string name="Result_name">Result</string>
-    <string name="NewOperation_name">New Operation</string>
-    <string name="area_name">Area</string>
-    <string name="hint_rib1">Enter Value Of rib1</string>
-    <string name="hint_rib2">Enter Value Of rib2</string>
-    <string name="hint_rib3">Enter Value Of rib3</string>
-    <string name="hint_height">Enter height</string>
-    <string name="hint_base">Enter Base</string>
-    <string name="hint_y">Enter Value Of Y</string>
+    <string name="curr_name">Enter Your Currency</string>
+    <string name="CoCurr_name">Converted Currency</string>
 
 </resources>

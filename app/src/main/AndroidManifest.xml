@@ -5,7 +5,7 @@
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:label="Converter"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
@@ -17,16 +17,16 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Square"
-            android:label="Square" />
+            android:name=".Currency"
+            android:label="currency" />
         <activity
-            android:name=".Circle"
-            android:label="Circle" />
+            android:name=".Time"
+            android:label="time" />
         <activity
-            android:name=".Rectangle"
-            android:label="Rectangle" />
-        <activity android:name=".Triangle"
-            android:label="Triangle"
+            android:name=".Distance"
+            android:label="distance" />
+        <activity android:name=".Speed"
+            android:label="speed"
            >
         </activity>
     </application>
